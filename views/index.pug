@@ -1,0 +1,12 @@
+extends layout.pug 
+
+block banner
+    #fb-root
+    script(async='' defer='' crossorigin='anonymous' src='https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0')
+
+    include content/banner.pug
+
+block content
+    #loewetech-app-root
+        
+

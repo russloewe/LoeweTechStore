@@ -1,0 +1,9 @@
+mixin content(NAME)
+	.row.featurette.ml-3(id=NAME.replace(' ', '-') )
+		.col-md-1
+		.col-md-8.border-left.border-right
+			block
+		.col-md-3
+
+mixin pic(name)
+	img.img-fluid(src='public/images/'+name+'.jpg')

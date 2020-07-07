@@ -1,0 +1,26 @@
+// Navbar
+
+mixin navbar(brandname, ...links)
+	nav#navbar.navbar.navbar-expand-lg.navbar-dark.site-header.py-2.bg-dark.sticky-top
+		a.navbar-brand.nav-link.js-scroll-trigger(href='#Home')=BRANDNAME
+		button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarNavDropdown' aria-controls='navbarNavDropdown' aria-expanded='false' aria-label='Toggle navigation')
+			span.navbar-toggler-icon
+		#navbarNavDropdown.collapse.navbar-collapse
+			ul.navbar-nav.pl-2
+				each target in links
+					li.nav-item.px-2
+						a.nav-link.js-scroll-trigger(href='#'+target.replace(' ', '-'))= target
+
+
+
+
+mixin navbar_back(brandname, ...links)
+	nav#navbar.navbar.navbar-expand-lg.navbar-dark.site-header.sticky-top.py-2.bg-dark
+		a.navbar-brand.nav-link(href='index.html')=BRANDNAME
+		button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarNavDropdown' aria-controls='navbarNavDropdown' aria-expanded='false' aria-label='Toggle navigation')
+			span.navbar-toggler-icon
+		#navbarNavDropdown.collapse.navbar-collapse
+			ul.navbar-nav.pl-2
+				each target in links
+					li.nav-item.px-2
+						a.nav-link.js-scroll-trigger(href='#'+target.replace(' ', '-'))= target

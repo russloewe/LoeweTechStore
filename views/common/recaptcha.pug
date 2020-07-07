@@ -1,0 +1,20 @@
+script(src='https://www.google.com/recaptcha/api.js?render='+G_RECAPTCHA_CLIENT, async='')
+
+script(async='').
+	grecaptcha.ready(function() {
+	grecaptcha
+	.execute(#{G_RECAPTCHA_CLIENT}, {action: 'social'})
+	.then((token) => {
+	fetch('/captcha/recaptcha', {
+		method: "POST",
+		headers: {
+		'Accept': 'application/json',
+		'Content-Type': 'application/json'
+	},
+	body: JSON.stringify({captchaToken: token})
+	}).then(function(response) {
+	console.log("reCaptcha logged by server");
+	})
+	});
+	});
+

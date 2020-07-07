@@ -1,0 +1,26 @@
+#Contact.container
+	.pricing-header.px-3.py-3.pt-md-5.pb-md-4.mx-auto.text-center
+		h1.display-4 Contact Us
+		p.lead
+	.row
+		.col-md-4.order-md-1
+			h3 Let&rsquo;s Connect
+			.ts-column-count-sm-2
+			a.mb-3.d-flex.ts-align__vertical(href=LINKEDIN target='_blank')
+				span.ts-circle__xs.border.ts-border-muted.mr-4
+					i.fa.fa-linkedin
+				span Linkedin
+			a.mb-3.d-flex.ts-align__vertical(href=FACEBOOK target='_blank')
+				span.ts-circle__xs.border.ts-border-muted.mr-4
+					i.fa.fa-facebook
+				span Facebook
+			a.mb-3.d-flex.ts-align__vertical(href='tel:'+PHONE_NUMBER target='_blank')
+				span.ts-circle__xs.border.ts-border-muted.mr-4
+					i.fa.fa-phone
+				span Call Now
+		.col-md-8
+			.card
+				.card-title.text-center
+					h2 Direct Message
+				.card-body
+					#contact-form

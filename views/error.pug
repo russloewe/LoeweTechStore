@@ -1,0 +1,27 @@
+doctype html
+head
+  include ./analytics.html
+  meta(http-equiv='content-type' content='text/html; charset=UTF-8')
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  meta(name='author' content='Russell Loewe')
+  link(rel='stylesheet' href='public/data/bootstrap.css' type='text/css')
+  title Russ Loewe
+
+block content
+  div(id="main")
+     h1= message
+     h2= error.status
+     pre #{error.stack}
+  div(id="foot")
+
+script(src='public/data/jquery-3.js')
+script(src='public/data/bootstrap.js')
+script(src='public/data/jquery.js')
+script(src='public/data/jquery_002.js')
+
+
+
+
+
+

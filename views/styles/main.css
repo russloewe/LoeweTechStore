@@ -1,0 +1,437 @@
+.carousel-center {
+  position: absolute;
+  right: 15%;
+  bottom: 50%;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+.admin-link {
+    display: block;
+    padding: 0.5rem 1rem;
+  }
+  
+.admin-link:hover, .admin-link:focus {
+    text-decoration: none;
+  }
+  
+.admin-link.disabled {
+    color: grey;
+    pointer-events: none;
+    cursor: default;
+}
+
+.beta-banner{
+    position: fixed;
+    right: 0%;
+    top: 0%;
+    z-index: 1030;
+}
+.active-nav-link{
+    color: #fff;
+    font-size: lager;
+}
+.banner-img{
+    background-image: url('public/banners/banner.jpg');
+    background-size: auto;
+}
+.carousel-top-left {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-top-right {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+  }
+.top-right {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  z-index: 10;
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+  text-align: center;
+}
+.bottom-right {
+    position: absolute;
+    right: 0%;
+    top: 100%;
+    z-index: 10;
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+  }
+.fa-angle-double-down:before {
+ content:"\f103"
+}
+
+.fa-angle-down:before {
+ content:"\f107"
+}
+ @font-face {
+ font-family:'FontAwesome';
+ src:url('./public/fonta.woff2') format('woff2');
+ font-weight:normal;
+ font-style:normal;
+ font-display: swap;
+}
+.fa {
+ display:inline-block;
+ font:normal normal normal 14px/1 FontAwesome;
+ font-size:inherit;
+ text-rendering:auto;
+ -webkit-font-smoothing:antialiased;
+ -moz-osx-font-smoothing:grayscale
+}
+
+.fa-facebook-f:before,
+.fa-facebook:before {
+ content:"\f09a"
+}
+.fa-facebook:before {
+ content:"\f09a"
+}
+.fa-linkedin:before {
+ content:"\f0e1"
+}
+
+
+.fa-phone:before {
+ content:"\f095"
+}
+
+
+.fa-twitter:before {
+ content:"\f099"
+}
+
+.carousel-control-prev-icon2 {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232323' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon2 {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232323' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.modal-backdrop.show{opacity:0}
+
+
+
+
+
+/*-------------------------------------------
+  -- Circle
+-------------------------------------------*/
+
+.ts-circle__xs {
+    border-radius: 50%;
+    display: inline-block;
+    height: 3rem;
+    flex: 0 0 3rem;
+    overflow: hidden;
+    text-align: center;
+    line-height: 3rem;
+    width: 3rem;
+}
+
+.ts-circle__sm {
+    border-radius: 50%;
+    display: inline-block;
+    height: 4.375rem;
+    flex: 0 0 4.375rem;
+    overflow: hidden;
+    text-align: center;
+    line-height: 4.375rem;
+    width: 4.375rem;
+}
+
+.ts-circle__md {
+    border-radius: 50%;
+    display: inline-block;
+    height: 6.25rem;
+    flex: 0 0 6.25rem;
+    overflow: hidden;
+    text-align: center;
+    line-height: 6.25rem;
+    width: 6.25rem;
+}
+
+.ts-circle__lg {
+    border-radius: 50%;
+    display: inline-block;
+    height: 8.125rem;
+    flex: 0 0 8.125rem;
+    overflow: hidden;
+    text-align: center;
+    line-height: 8.125rem;
+    width: 8.125rem;
+}
+
+.ts-circle__xl {
+    border-radius: 50%;
+    display: inline-block;
+    height: 10rem;
+    flex: 0 0 10rem;
+    overflow: hidden;
+    text-align: center;
+    line-height: 10rem;
+    width: 10rem;
+}
+
+.ts-circle__xxl {
+    border-radius: 50%;
+    display: inline-block;
+    height: 15.625rem;
+    flex: 0 0 15.625rem;
+    overflow: hidden;
+    text-align: center;
+    line-height: 15.625rem;
+    width: 15.625rem;
+}
+/* -- Align */
+
+.ts-align__vertical {
+    display: flex;
+    align-items: center;
+}
+
+/*-------------------------------------------
+  -- Borders
+-------------------------------------------*/
+
+.ts-border-radius__sm {
+    border-radius: .125rem;
+    overflow: hidden;
+}
+
+.ts-border-radius__md {
+    border-radius: .25rem;
+    overflow: hidden;
+}
+
+.ts-border-radius__lg {
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.ts-border-radius__xl {
+    border-radius: .75rem;
+    overflow: hidden;
+}
+
+.ts-border-radius__pill {
+    border-radius: 6.25rem !important;
+    overflow: hidden;
+}
+
+.ts-border-radius__round-shape {
+    border-radius: 187.5rem;
+    overflow: hidden;
+}
+
+.ts-border-none {
+    border: none;
+}
+
+.ts-border-bottom {
+    border-bottom: .0625rem solid rgba(0, 0, 0, .1);
+}
+
+.ts-border-muted {
+    border-color: rgba(25, 25, 25, .1) !important;
+}
+
+.ts-border-light {
+    border-color: rgba(255, 255, 255, .2) !important;
+}
+
+.ts-font-color__white {
+    color: #fff;
+}
+
+.ts-font-color__black {
+    color: #000;
+}
+
+.ts-font-color__primary {
+    color: #f26c4f;
+}
+
+.ts-bg-primary {
+    background-color: #f26c4f;
+}
+
+.ts-column-count-2 {
+    column-count: 2;
+}
+
+.ts-column-count-3 {
+    column-count: 3;
+}
+
+.ts-column-count-4 {
+    column-count: 4;
+}
+
+/*-------------------------------------------
+  -- Background
+-------------------------------------------*/
+
+[data-bg-image] {
+    background-size: cover;
+    background-position: 50%;
+}
+
+.ts-background {
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: -2;
+}
+
+.ts-background .ts-background {
+    height: 100%;
+    width: 100%;
+}
+
+.ts-background-repeat {
+    background-repeat: repeat;
+    background-size: inherit;
+}
+
+.ts-background-repeat .ts-background-image {
+    background-repeat: repeat;
+    background-size: inherit;
+}
+
+.ts-background-image, .ts-img-into-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.ts-background-image img, .ts-img-into-bg img {
+    display: none;
+}
+
+.ts-background-original-size {
+    background-size: inherit;
+}
+
+.ts-background-size-cover {
+    background-size: cover;
+}
+
+.ts-background-size-contain {
+    background-size: contain;
+}
+
+.ts-background-repeat-x {
+    background-repeat: repeat-x;
+}
+
+.ts-background-repeat-y {
+    background-repeat: repeat-y;
+}
+
+.ts-background-repeat-repeat {
+    background-repeat: repeat;
+    background-size: inherit;
+}
+
+.ts-background-position-top {
+    background-position: top;
+}
+
+.ts-background-position-center {
+    background-position: center;
+}
+
+.ts-background-position-bottom {
+    background-position: bottom;
+}
+
+.ts-background-position-left {
+    background-position-x: left !important;
+}
+
+.ts-background-position-right {
+    background-position-x: right !important;
+}
+
+.ts-background-particles {
+    height: 120%;
+    left: 0;
+    margin-left: -10%;
+    margin-top: -10%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 120%;
+    z-index: 1;
+}
+
+.ts-background-is-dark {
+    color: #fff;
+}
+
+.ts-background-is-dark .form-control {
+    box-shadow: 0 0 0 .125rem rgba(255, 255, 255, .2);
+}
+
+.ts-background-is-dark .form-control:focus {
+    box-shadow: 0 0 0 .125rem rgba(255, 255, 255, .4);
+}
+
+.ts-background-is-dark .ts-btn-border-muted {
+    border-color: rgba(255, 255, 255, .1);
+}
+
+.ts-video-bg {
+    height: 100%;
+}
+
+.ts-video-bg .fluid-width-video-wrapper {
+    height: 100%;
+}
+
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+header {
+  padding: 156px 0 100px;
+}
+
+section {
+  padding: 150px 0;
+}
+

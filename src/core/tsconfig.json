@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "types": [ "node", "mocha"],
+        "outDir": "../../build",
+        "typeRoots": [ "../../node_modules/@types" ],
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+         "esModuleInterop": true,
+        "sourceMap": false,
+    },
+     "files": [
+       "./app.ts",
+       "./bin/www.ts",
+       "./interfaces/userInterface.ts",
+       "./interfaces/coreInterface.ts",
+       "./interfaces/coreEndpoints.ts",
+       "./controllers/userController.ts",
+       "./controllers/authController.ts",
+       "./middleware/passport.ts",
+       "./middleware/ensureAdmin.ts",
+       "./models/userModel.ts",
+       "./routes/userRouter.ts",
+       "./routes/authRouter.ts",
+       "./routes/indexRouter.ts",
+       "./test/coreControllerTests.ts",
+       "./test/coreTestData.ts"
+    ]
+}

@@ -1,0 +1,12 @@
+extends layout.pug 
+
+
+block navbar
+    +navbar(BRANDNAME, 'About', 'Contact')
+
+
+block content
+        include content/about.pug
+        #store-view
+        include content/contact.pug
+

@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2015",
+        "outDir": "../../build",
+        "typeRoots": [ "../node_modules/@types" ],
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+         "esModuleInterop": true,
+        "sourceMap": false,
+        "jsx": "react",
+    },
+     "files": [
+       "./react/core.tsx",
+       "./interfaces/coreapi.ts"
+    ]
+}

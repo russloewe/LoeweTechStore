@@ -1,0 +1,7 @@
+node_modules
+public/javascripts/
+./settings.js
+nodeproject.zip
+webapp.service
+*.swo
+build

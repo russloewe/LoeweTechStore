@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "types": [ "node", "mocha" ],
+        "outDir": "../client_build",
+        "typeRoots": [ "../../node_modules/@types" ],
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+         "esModuleInterop": true,
+        "sourceMap": false,
+        "jsx": "preserve"
+    },
+    "include": [
+        "./react/**"
+    ],
+}

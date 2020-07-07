@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "types": [ "node", "mocha" ],
+        "outDir": "../../build",
+        "typeRoots": [ "../../node_modules/@types" ],
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+         "esModuleInterop": true,
+        "sourceMap": false,
+    },
+     "files": [
+       "./interfaces/storeInterface.ts",
+       "./interfaces/storeTypes.ts",
+       "./interfaces/storeEndpoints.ts",
+       "./controllers/cartController.ts",
+       "./controllers/productController.ts",
+       "./controllers/orderController.ts",  
+       "./controllers/shippingController.ts",
+       "./routes/storeRouter.ts",
+       "./test/orderControllerTests.ts",
+       "./test/productControllerTests.ts",
+       "./test/cartControllerTests.ts",
+       "./test/shippingControllerTests.ts",
+       "./test/storeTestData.ts"
+
+    ]
+}

@@ -1,0 +1,14 @@
+export const OrderCheckout = '/store/order/checkout';
+export const postPaymentIntentWebhook = '/store/webhooks/paymentintents';
+export const getOrdersEndpoint = '/store/order/get';
+export const postUpdateOrder = '/store/order/update';
+export const productListEndpoint = '/store/products/list';
+export const productUpdateEndpoint = '/store/products/update';
+export const prouductAddEndpoint = '/store/products/add';
+export const CartUpdate = '/store/cart/update';
+export const ClearCart = '/store/cart/clear';
+export const postAddShippingEndpoint = '/store/shipping/add';
+export const getShippingEndpoint = '/store/shipping/get';
+export const getCartEndpoint = '/store/cart/get';
+export const addItemEndpoint = '/store/cart/add';
+export const postRemoveItem = '/store/cart/remove';

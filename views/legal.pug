@@ -1,0 +1,14 @@
+extends layout.pug 
+
+
+block navbar
+	+navbar_back(BRANDNAME, 'Terms-of-Service', 'Privacy-Policy', 'Contact')
+
+	
+block content
+	include content/tos.pug
+	.featurette-divider
+	include content/privacy.pug
+	.featurett-divider
+	include content/contact.pug
+	.featurette-divider

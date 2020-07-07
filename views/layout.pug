@@ -1,0 +1,41 @@
+include mixins/navbar.pug
+include mixins/content.pug
+include options.pug
+
+
+doctype html
+head
+
+    block icons
+        include common/favicons.pug
+
+    block metatags
+        include common/metatags.pug
+
+    block styles
+        include styles/bootstrap.pug
+        style
+            include styles/main.css
+            include styles/font-awesome.css
+
+
+    title=BRANDNAME
+
+body
+    block banner
+
+    block content
+
+    block modals
+       
+        include modals/cookieModal.pug
+
+    block scripts
+        script
+            include scripts/jquery-3.js
+            include scripts/jquery-easing.js
+            include scripts/bootstrap.js
+        script(src="https://js.stripe.com/v3/")
+        script(src=SITE_URL+'public/js/bundle.js', async='')
+
+

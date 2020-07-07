@@ -7,7 +7,7 @@ A simple one page e-store implemented with NodeJs and Stripe
     
 # Install 
 
-Most of the installation process is accompolished with the ./load.sh
+Most of the installation process is accomplished with the ./load.sh
 shell script. run ./load.sh -h for a list of commands.
     
 ## Configuration
@@ -71,7 +71,7 @@ local development or remote production database with:
         ./load.sh -d
         ./load.sh -D
         
- respectivaly.
+respectively.
     
 ## Deploy the App:
 
